@@ -36,16 +36,11 @@ $(document).ready(function(){
                 success: function(result){
                     obj = JSON.parse(result);
                     console.log(result);
-                // $('.modal').modal('show');   
-                // $('.add-plv').remove();
-                // $('.modal-body').html('<h5 class="text-success">Sucesso!</h5>');
+               
                     if(obj.msg != 0){
                     // sessionStorage.setItem('cad_person', 1);
                         window.location.href = 'escolher-genero';
 
-                        // $(".box-form").hide();
-                        // $(".box-person").fadeIn('slow');
-                        // console.log(result);
 
                     }else{
                         $('.modal').modal('show');
