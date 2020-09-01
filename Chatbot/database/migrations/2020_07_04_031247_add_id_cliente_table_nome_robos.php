@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddIdClienteTableNomeRobos extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('nome_robos', function (Blueprint $table) {
+            $table->integer('id_cliente')->unsigned();
+
+            $table->foreign('id_cliente')->references('id_cliente')->on('clientes')->onDelete('cascade');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('nome_robos', function (Blueprint $table) {
+            //
+        });
+    }
+}

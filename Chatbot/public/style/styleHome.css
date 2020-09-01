@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Coves Bold";
+    src: url("../fonts/Coves/Coves Bold.otf");
+    /*src: url("font/Coves Light.otf");*/
+  
+  }
+  @font-face {
+    font-family: "Franca book";
+    src: url("../fonts/franca/francaBook.otf");
+    /*src: url("font/Coves Light.otf");*/
+  
+  }
+  @font-face {
+    font-family: "Franca bold";
+    src: url("../fonts/franca/francaBold.otf");
+    /*src: url("font/Coves Light.otf");*/
+  
+  }
+  @font-face {
+    font-family: "Coves Light";
+    src: url("../fonts/Coves/Coves Light.otf");
+  }
+  h2,h1{
+    font-family: "Coves Bold";
+
+  }
+  .linkedin-share-button{
+    display: inline-block;            
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-size: 100% 100%; /* ou 'contain' */
+    background-image: url("https://4.bp.blogspot.com/-vKggiVLlldE/WyrRPUmYMJI/AAAAAAAAIDI/3u5UypL5vdQvTEPfPACIUMhKhv2mbYT7wCLcBGAs/s1600/linkedin-icon-iconfinder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  ul{
+    font-family: "Coves Light";
+  }
+  /* ul{
+    font-family: "Franca bold";
+
+  } */
+body{
+    /* background: url('https://wp-themes.com/wp-content/themes/athena/inc/images/athena.jpg'); */
+    /* background: url('img/header-fundo3.jpg'); */
+    height:-webkit-fill-available;
+    background-size: cover;
+    background-position: top-center;
+    background-position: top;
+}
+.titulo-p{
+    padding-left: 80px;
+    /* text-transform:uppercase; */
+    /* font-family: "Coves Bold"; */
+    font-family: "Coves Bold";
+    font-variant: petite-caps;
+    
+
+    line-height: initial;
+    
+}
+.titulo-p,h2{  
+    font-size: 5rem;
+    color: #fff;
+}
+.card{
+  border:none !important;
+}
+.btn-chat{
+  border: none !important;
+}
+.div-titulo{
+  height: 800px;
+  background: url('../img/header-fundo3.jpg');
+  /* height:-webkit-fill-available; */
+    background-size: cover;
+    background-position: top-center;
+    background-position: top;
+
+}
+.p-titulo{
+  font-size: larger;
+}
+.lista-home{
+  font-size: 1.5rem;
+}
+.coves-font{
+  font-family: "Coves bold";
+  font-size: 2.8rem;
+}
+.depoimentos-home{
+    margin-top:60px;
+    margin-bottom:100px;
+}
+.depoimentos-home img{
+    width:100px;margin:auto;
+}
+.box-share{
+    margin-top:50px;margin-bottom:60px;
+}
+.box-share img{
+  width: 40px;
+  border-radius: 2px 2px 2px 2px;
+}
+@media (max-width: 1300px){
+  .lista-home{
+  font-size: 1.2rem;
+}
+}
+@media (min-width:500px) and (max-width: 1400px) {
+  .titulo-p{
+    font-size: 2.9rem !important;
+    
+  }
+}
+@media (max-width: 600px) {
+.div-titulo{
+
+  background: url('../img/fundo-home-mob.jpg');
+  background-size: cover;
+    background-position: top-center;
+    background-position: top;
+}
+  .titulo-p{
+    font-size: 3rem !important;
+    padding-left: 20px;
+  }
+  .div-titulo{
+    height: -webkit-fill-available;
+    
+  }
+  body{
+    background-repeat: no-repeat;
+  }
+  .coves-font{
+    font-size: 2rem;
+  }
+  .titulo-footer{
+    font-size: 2rem;
+
+  }
+  .lista-home{
+    font-size: 1.5rem;
+  }
+  .secao-dois p{
+    font-size: 1.5rem;
+  }
+  .box-img-celular img{
+    width:300px;
+  }
+  .box-img-celular{
+    padding-bottom:60px;
+  }
+
+}
+  
