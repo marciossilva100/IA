@@ -7,9 +7,7 @@
 // Route::get('chat','respostaController@getAjax');
 
 Route::apiResource('chat','responseChat');
-// Route::apiResource('chat','api\responseChat');
 
-Route::apiResource('teste','testeController');
 
 
 
