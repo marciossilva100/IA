@@ -293,8 +293,7 @@ class responseChat extends Controller
         // return json_encode(compact('resposta_str','min','sec','cod'),JSON_UNESCAPED_UNICODE);
         return response()->json(['resposta'=> $resposta_str,
                                 'min'=> $min,
-                                'sec'=>$sec,
-                                'cod'=>$cod],200);
+                                'sec'=>$sec],200);
 
         // return json_encode($resposta_str,JSON_UNESCAPED_UNICODE);
         }catch(Exception $e){
