@@ -1,9 +1,7 @@
 # CHATBOT API - INTELIGÊNCIA ARTIFICIAL
 
     API para CHATBOT
-    Projeto em fase de teste, sua função é interagir com o usuário na forma de um Chatbot
-
-###
+    Sua função é simular um chat. Quando é enviado uma conversa a API retorna uma mensagem de texto simulando um bate-papo. 
 
 
 ## Configurações: 
