@@ -1,4 +1,4 @@
-# CHATBOT API - INTELIGÊNCIA ARTIFICIAL
+# CHATBOT API
 
     API para CHATBOT
     Sua função é simular um chat. Quando é enviado uma conversa a API retorna uma mensagem de texto simulando um bate-papo. 
